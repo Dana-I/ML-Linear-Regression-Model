@@ -11,9 +11,23 @@ This project implements **linear regression from scratch** using **gradient desc
    python3 part1.py
 
 ##Part 2 - SGDRegressor model 
-   #description: The difference between the first part and the second part is that we are usign the scikit learn package model. We are using the sgd regressor model to compare with the linear regression model we had made. 
+   
+#description: 
+The linear regression is implemented using Scikit-learn's regressor. We are using this model so we can compare it to the results from the model in part 1. 
+   
+#Libraries used:
+ - numpy
+ - pandas
+ - matplotlib
+ - scikit-learn
+ - ucimlrepo
 
+#Scikit-learn Classes used:
+ - sklearn.linear_model.SGDRegressor
+ - sklearn.preprocessing.StandardScaler
+ - sklearn.model_selection.train_test_split
+   
 ##How to run Part 2 
-1. Python3 installed from previous part
+1. python3 -m pip install numpy pandas matplotlib scikit-learn ucimlrepo
 2. Run the script:
    python3 part2.py
